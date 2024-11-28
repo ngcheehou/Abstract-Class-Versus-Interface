@@ -65,7 +65,7 @@ public abstract class Human
     public void Sleep()
     {
         HP += SLEEP_RESTORE_POINT;
-        Console.WriteLine($"Hero get sleep and restore HP to: {HP}\n");
+        Console.WriteLine($"Hero gets sleep and restore HP to: {HP}\n");
     }
 
     public virtual void SelfHealing(int healItem) { }
@@ -143,7 +143,7 @@ public class WarriorOfInterface: IHuman
     {
 
         HP += SLEEP_RESTORE_POINT;
-        Console.WriteLine($"Hero get sleep and restore HP to: {HP}\n");
+        Console.WriteLine($"Hero gets sleep and restore HP to: {HP}\n");
     }
 
     public void LevelUp()
@@ -180,7 +180,7 @@ public class HealerOfInterface : IHuman
     {
 
         HP += SLEEP_RESTORE_POINT;
-        Console.WriteLine($"Hero get sleep and restore HP to: {HP}\n");
+        Console.WriteLine($"Hero gets sleep and restore HP to: {HP}\n");
     }
 
     public void LevelUp()
@@ -236,7 +236,7 @@ public class WarriorOfInterface_v2 : IHuman_v2, IBattle
     {
 
         HP += SLEEP_RESTORE_POINT;
-        Console.WriteLine($"Hero get sleep and restore HP to: {HP}\n");
+        Console.WriteLine($"Hero gets sleep and restore HP to: {HP}\n");
     }
 
     public void LevelUp()
@@ -268,7 +268,7 @@ public class HealerOfInterface_v2 : IHuman_v2, IHeal
     {
 
         HP += SLEEP_RESTORE_POINT;
-        Console.WriteLine($"Hero get sleep and restore HP to: {HP}\n");
+        Console.WriteLine($"Hero gets sleep and restore HP to: {HP}\n");
     }
 
     public void LevelUp()
